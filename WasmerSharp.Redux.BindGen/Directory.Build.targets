@@ -1,0 +1,16 @@
+﻿<Project>
+<!--    <Target Name="CheckWasmerHeaderFile" BeforeTargets="BeforeBuild">-->
+<!--        <Error Condition="!Exists('$(WasmerHeadersFolder)')"-->
+<!--               Text="The folder '$(WasmerHeadersFolder)' does not exist.&#x0D;&#x0A;Make sure, that:&#x0D;&#x0A;1. You've done 'git submodule update'.&#x0D;&#x0A;2. You've built 'c-api' crate in the Wasmer submodule." />-->
+<!--    </Target>-->
+
+    <ItemGroup>
+
+        <Content Include="$(WasmerCApiFolder)wasmer.h" Link="include\wasmer.h" CopyToOutputDirectory="PreserveNewest" />
+        <!--
+            MSBUild doesn't understand that ..\modules\wasmer\lib\c-api\wasm.h is symlink, so we will manually resolve it.
+            Actually I don't know why real wasm.h file is located in tests directory.
+        -->
+        <Content Include="$(WasmerCApiFolder)tests\wasm-c-api\include\wasm.h" Link="include\wasm.h" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+</Project>
