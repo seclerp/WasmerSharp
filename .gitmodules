@@ -1,0 +1,3 @@
+[submodule "modules/wasmer"]
+	path = modules/wasmer
+	url = git@github.com:wasmerio/wasmer.git
