@@ -7,10 +7,6 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\WasmerSharp.Redux\WasmerSharp.Redux.csproj">
       <Project>{F023B21F-917B-4C16-A5CC-FC4EA00D1C0F}</Project>
       <Name>WasmerSharp</Name>
