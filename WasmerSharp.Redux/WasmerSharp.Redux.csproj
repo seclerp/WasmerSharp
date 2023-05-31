@@ -16,6 +16,7 @@
     <Description>WasmerSharp.Redux is an actively developed fork of great library WasmerSharp. WasmerSharp is a .NET API to host the Wasmer WebAssembly runtime in .NET, allowing developers to blend WebAssembly code with .NET code in desktops and servers.</Description>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>default</LangVersion>
+    <RootNamespace>WasmerSharp</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

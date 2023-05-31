@@ -23,6 +23,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WasmerSharp\WasmerSharp.csproj" />
+    <ProjectReference Include="..\..\WasmerSharp.Redux\WasmerSharp.Redux.csproj" />
   </ItemGroup>
 </Project>
