@@ -4,26 +4,24 @@
     <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' ">true</GeneratePackageOnBuild>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>0.7.0</PackageVersion>
-    <Authors>Miguel de Icaza</Authors>
-    <PackageLicenseUrl>https://github.com/migueldeicaza/WasmerSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Miguel de Icaza, Andrii Rublov</Authors>
+    <PackageLicenseUrl>https://github.com/seclerp/wasmersharp-redux/blob/master/LICENSE</PackageLicenseUrl>
     <Owners>Miguel de Icaza</Owners>
-    <PackageProjectUrl>https://github.com/migueldeicaza/WasmerSharp</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/seclerp/wasmersharp-redux</PackageProjectUrl>
     <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     <Summary>.NET bindings to the Wasmer WebAssembly runtime</Summary>
     <PackageTags>webassembly, .net, wasm, wasmer</PackageTags>
-    <Title>WasmerSharp</Title>
-    <Description>WasmerSharp is a .NET API to host the Wasmer WebAssembly runtime in .NET, allowing developers to blend WebAssembly code with .NET code in desktops and servers.</Description>
+    <Title>WasmerSharp.Redux</Title>
+    <Description>WasmerSharp.Redux is an actively developed fork of great library WasmerSharp. WasmerSharp is a .NET API to host the Wasmer WebAssembly runtime in .NET, allowing developers to blend WebAssembly code with .NET code in desktops and servers.</Description>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>7.2</LangVersion>
     <DocumentationFile>bin\Debug\netstandard2.0\WasmerSharp.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>7.2</LangVersion>
     <DebugType></DebugType>
     <DocumentationFile>bin\Release\netstandard2.0\WasmerSharp.xml</DocumentationFile>
   </PropertyGroup>
