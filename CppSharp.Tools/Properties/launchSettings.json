@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Generate Wasmer bindings": {
+      "commandName": "Project",
+      "commandLineArgs": "../WasmerSharp.Redux/Generated"
+    },
+    "Download Wasmer headers": {
+      "commandName": "Executable",
+      "executablePath": "dotnet",
+      "commandLineArgs": "fsi DownloadWasmerHeader.fsx"
+    }
+  }
+}

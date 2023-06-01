@@ -1,9 +1,8 @@
-﻿using CppSharp;
-using CppSharp.AST;
+﻿using CppSharp.AST;
 using CppSharp.Generators;
 using CppSharp.Passes;
 
-ConsoleDriver.Run(new WasmerLibrary(Path.Combine(Directory.GetCurrentDirectory(), "include")));
+namespace CppSharp.Tools;
 
 public class WasmerLibrary : ILibrary
 {

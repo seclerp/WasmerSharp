@@ -36,7 +36,7 @@ class MainClass {
 		var global = new Global (1024, false);
 		Console.WriteLine ("Global: {0} {1} {2}", global.Value, global.IsMutable, global.ValueType);
 	}
-	
+
 	public static void Main (string [] args)
 	{
 		TestGlobals ();

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSample", "Tests\CoreSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandaloneSample", "StandaloneSample\StandaloneSample.csproj", "{91E87C34-48B5-4BFA-BDC5-AF3106BF3F74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WasmerSharp.Redux.BindGen", "WasmerSharp.Redux.BindGen\WasmerSharp.Redux.BindGen.csproj", "{24751D7D-6CD2-4231-8B0A-FE0858A4A504}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppSharp.Tools", "CppSharp.Tools\CppSharp.Tools.csproj", "{24751D7D-6CD2-4231-8B0A-FE0858A4A504}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
